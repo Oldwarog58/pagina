@@ -1,0 +1,27 @@
+header{
+    background-color: rgb(56, 54, 54);
+
+}
+
+.primer_section{
+    background-image: url(/images/cabecera.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    padding: 10px 20px;
+  background-color: rgb(56, 54, 54);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container{
+    display: flex;
+}
+.a1vank{
+    display: flex;
+}
