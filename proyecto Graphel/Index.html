@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Multimedia</title>
     <link rel="stylesheet" href="/Styles/Index.css">
-    <title>DiseñoMultimedia.com</title>
 </head>
 <body>
-    <main>
-        <header class="container">
-            <h1> Diseño Multimedia </h1> 
-          <nav>
-            <ul>
-                <li><a class="a1vank" href="/Index.html">holaaa</a></li>
-                <li><a href="">hola</a></li>
-                <li><a href="">salud</a></li>
-                <li><a href="">hijueputa</a></li>
-            </ul>
-          </nav>
-        </header>
-        <section class="primer_section">
-            <h2>
-                EXPERTOS EN TECNOLOGIAS WEB
-            </h2>
-            <h3> texto de relleno el cual va abajo del h2 en el sectio 1 aunque no se como dividirlo y linkearlo sin que explote el codigo jajajaja qwq</h3>
-        </section>
-        <section class="segundo_section">
-            <h2>inscribete a nuestro Boletin</h2>
-            <label for="email">Ingrese el Email</label>
-            <input type="email" id="email" pattern=".+@example\.com" size="20" required />
-            <button class="boton_gmail">Subscribete</button>
-        </section>
-        <section class="tercer">
-        <img src="/images/logo_html.png" alt="logo_html">
-        <h3>texto que va abajo del html </h3>
-
-        <img src="/images/logo_css.png" alt="logo_css">
-        <h3>texto que va abajo del logo de css</h3>
-
-        <img src="/images/logo_brush.png" alt="logo_brush">
-        <h3>texto que va abajo del logo de brush</h3>
-        </section>
-    </main>
+    <header class="header">
+        <div class="container">
+            <div class="brand">Diseño <span class="highlight">Multimedia</span></div>
+            <nav class="navigation">
+                <a href="#" class="nav-link">INICIO</a>
+                <a href="#" class="nav-link">NOSOTROS</a>
+                <a href="#" class="nav-link">SERVICIOS</a>
+                <a href="#" class="nav-link">CONTACTO</a>
+            </nav>
+        </div>
+    </header>
+    <section class="main-banner">
+        <div class="banner-content">
+            <h1 class="banner-title">Expertos en Tecnologías Web</h1>
+            <p class="banner-text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Minima beatae aspernatur alias, commodi molestiae accusantium.</p>
+        </div>
+    </section>
+    <section class="subscribe-section">
+        <h2 class="subscribe-title">Subscríbete a nuestro boletín</h2>
+        <form class="subscribe-form">
+            <input type="email" class="subscribe-input" placeholder="Ingrese el Email...">
+            <button class="subscribe-button">Subscribete</button>
+        </form>
+    </section>
+    <section class="services-section">
+        <div class="service">
+            <img src="/images/logo_html.png" alt="logo_html" class="service-icon">
+            <h3 class="service-title">HTML5</h3>
+            <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="service">
+            <img src="/images/logo_css.png" alt="CSS3" class="service-icon">
+            <h3 class="service-title">CSS3</h3>
+            <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="service">
+            <img src="/images/logo_brush.png" alt="Diseño Gráfico" class="service-icon">
+            <h3 class="service-title">Diseño Gráfico</h3>
+            <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-text">Graphel Desarrollo Web, Copyright © 2017</p>
+    </footer>
 </body>
 </html>

@@ -1,27 +1,134 @@
-header{
-    background-color: rgb(56, 54, 54);
-
+body, h1, h2, h3, p, div, nav, img, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.primer_section{
-    background-image: url(/images/cabecera.jpg);
-    height: 500px;
-    width: 100%;
+/* Fuente general y estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.boton{
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #00f;
+}
+
+.navigation .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation .nav-link:hover {
+    text-decoration: underline;
+}
+
+.main-banner {
+    background: url('/images/cabecera.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner-text {
+    font-size: 18px;
+}
+
+.subscribe-section {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.subscribe-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subscribe-form {
+    display: inline-block;
+}
+
+.subscribe-input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-button {
     padding: 10px 20px;
-  background-color: rgb(56, 54, 54);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #ff5722;
+    color: #fff;
+    cursor: pointer;
 }
-.container{
+
+/* Sección de Servicios */
+.services-section {
     display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #f4f4f4;
 }
-.a1vank{
-    display: flex;
+
+.service {
+    text-align: center;
+    width: 30%;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.service-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.service-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Pie de Página */
+.footer {
+    background: #00f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-text {
+    font-size: 14px;
 }
